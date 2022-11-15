@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UE5_FallGuys",
+			"Path": "C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Source\\UE5_FallGuys.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UE5_FallGuysEditor",
+			"Path": "C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Source\\UE5_FallGuysEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+[
+	{
+		"file": "C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Source\\UE5_FallGuys\\MovingPlatform.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\.vscode\\compileCommands_Default\\UE5_FallGuys.205.rsp",
+		"directory": "C:\\UE\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Source\\UE5_FallGuys\\MovingPlatform.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\.vscode\\compileCommands_Default\\UE5_FallGuys.205.rsp",
+		"directory": "C:\\UE\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Source\\UE5_FallGuys\\UE5_FallGuys.Build.cs",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\.vscode\\compileCommands_Default\\UE5_FallGuys.205.rsp",
+		"directory": "C:\\UE\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Source\\UE5_FallGuys\\UE5_FallGuys.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\.vscode\\compileCommands_Default\\UE5_FallGuys.205.rsp",
+		"directory": "C:\\UE\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Source\\UE5_FallGuys\\UE5_FallGuys.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\.vscode\\compileCommands_Default\\UE5_FallGuys.205.rsp",
+		"directory": "C:\\UE\\UE_5.0\\Engine\\Source"
+	}
+]

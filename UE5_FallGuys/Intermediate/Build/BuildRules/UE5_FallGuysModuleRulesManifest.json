@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Source\\UE5_FallGuys\\UE5_FallGuys.Build.cs",
+		"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Source\\UE5_FallGuys.Target.cs",
+		"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Source\\UE5_FallGuysEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

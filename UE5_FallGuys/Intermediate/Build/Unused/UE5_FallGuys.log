@@ -1,0 +1,19 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\cc4li\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\GitNHub\UE5_FallGuysClone).
+  Building UE5_FallGuysEditor...
+  Using Visual Studio 2022 14.34.31933 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from UE5_FallGuys unity file: MovingPlatform.cpp, UE5_FallGuys.cpp
+  Determining max actions to execute in parallel (8 physical cores, 8 logical cores)
+    Executing up to 8 processes, one per physical core
+  Building 6 actions with 6 processes...
+  [1/6] Compile UE5_FallGuys.init.gen.cpp
+  [2/6] Compile MovingPlatform.gen.cpp
+  [3/6] Compile MovingPlatform.cpp
+  [4/6] Link UnrealEditor-UE5_FallGuys.lib
+     Creating library C:\GitNHub\UE5_FallGuysClone\UE5_FallGuys\Intermediate\Build\Win64\UnrealEditor\Development\UE5_FallGuys\UnrealEditor-UE5_FallGuys.lib and object C:\GitNHub\UE5_FallGuysClone\UE5_FallGuys\Intermediate\Build\Win64\UnrealEditor\Development\UE5_FallGuys\UnrealEditor-UE5_FallGuys.exp
+  [5/6] Link UnrealEditor-UE5_FallGuys.dll
+     Creating library C:\GitNHub\UE5_FallGuysClone\UE5_FallGuys\Intermediate\Build\Win64\UnrealEditor\Development\UE5_FallGuys\UnrealEditor-UE5_FallGuys.suppressed.lib and object C:\GitNHub\UE5_FallGuysClone\UE5_FallGuys\Intermediate\Build\Win64\UnrealEditor\Development\UE5_FallGuys\UnrealEditor-UE5_FallGuys.suppressed.exp
+  [6/6] WriteMetadata UE5_FallGuysEditor.target
+  Total time in Parallel executor: 1.50 seconds
+  Total execution time: 1.94 seconds

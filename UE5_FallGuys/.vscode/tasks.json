@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "UE5_FallGuys Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"Debug",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"Debug",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuys Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"Debug",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"DebugGame",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"DebugGame",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuys Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"DebugGame",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"Development",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"Development",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuys Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"Development",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"Test",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"Test",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuys Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"Test",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"Shipping",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"Shipping",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuys Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuys",
+				"Win64",
+				"Shipping",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"Debug",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"Debug",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuys IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"Debug",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"DebugGame",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"DebugGame",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuys IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"DebugGame",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"Development",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"Development",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuys IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"Development",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"Test",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"Test",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuys IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"Test",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"Shipping",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"Shipping",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuys IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuys IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuys",
+				"IOS",
+				"Shipping",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuysEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuysEditor",
+				"Win64",
+				"Debug",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuysEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuysEditor",
+				"Win64",
+				"Debug",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuysEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuysEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuysEditor",
+				"Win64",
+				"Debug",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuysEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuysEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuysEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuysEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuysEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuysEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuysEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuysEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuysEditor",
+				"Win64",
+				"Development",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuysEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_FallGuysEditor",
+				"Win64",
+				"Development",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_FallGuysEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"label": "UE5_FallGuysEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_FallGuysEditor",
+				"Win64",
+				"Development",
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE\\UE_5.0"
+			}
+		}
+	]
+}

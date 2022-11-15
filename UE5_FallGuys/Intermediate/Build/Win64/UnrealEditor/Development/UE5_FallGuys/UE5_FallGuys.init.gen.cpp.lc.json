@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\gitnhub\\ue5_fallguysclone\\ue5_fallguys\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_fallguys\\ue5_fallguys.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gitnhub\\ue5_fallguysclone\\ue5_fallguys\\intermediate\\build\\win64\\ue5_fallguyseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\gitnhub\\ue5_fallguysclone\\ue5_fallguys\\intermediate\\build\\win64\\unrealeditor\\development\\ue5_fallguys\\definitions.ue5_fallguys.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

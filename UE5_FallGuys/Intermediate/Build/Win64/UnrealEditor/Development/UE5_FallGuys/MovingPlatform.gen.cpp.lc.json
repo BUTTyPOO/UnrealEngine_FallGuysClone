@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\gitnhub\\ue5_fallguysclone\\ue5_fallguys\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_fallguys\\movingplatform.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gitnhub\\ue5_fallguysclone\\ue5_fallguys\\intermediate\\build\\win64\\ue5_fallguyseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\gitnhub\\ue5_fallguysclone\\ue5_fallguys\\intermediate\\build\\win64\\unrealeditor\\development\\ue5_fallguys\\definitions.ue5_fallguys.h",
+            "c:\\gitnhub\\ue5_fallguysclone\\ue5_fallguys\\source\\ue5_fallguys\\movingplatform.h",
+            "c:\\gitnhub\\ue5_fallguysclone\\ue5_fallguys\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_fallguys\\movingplatform.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

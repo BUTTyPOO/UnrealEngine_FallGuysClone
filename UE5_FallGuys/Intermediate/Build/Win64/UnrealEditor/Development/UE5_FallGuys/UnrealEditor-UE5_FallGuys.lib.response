@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UE5_FallGuys.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\GitNHub\UE5_FallGuysClone\UE5_FallGuys\Intermediate\Build\Win64\UE5_FallGuysEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\GitNHub\UE5_FallGuysClone\UE5_FallGuys\Intermediate\Build\Win64\UnrealEditor\Development\UE5_FallGuys\MovingPlatform.cpp.obj"
+"C:\GitNHub\UE5_FallGuysClone\UE5_FallGuys\Intermediate\Build\Win64\UnrealEditor\Development\UE5_FallGuys\UE5_FallGuys.cpp.obj"
+"C:\GitNHub\UE5_FallGuysClone\UE5_FallGuys\Intermediate\Build\Win64\UnrealEditor\Development\UE5_FallGuys\MovingPlatform.gen.cpp.obj"
+"C:\GitNHub\UE5_FallGuysClone\UE5_FallGuys\Intermediate\Build\Win64\UnrealEditor\Development\UE5_FallGuys\UE5_FallGuys.init.gen.cpp.obj"
+"C:\GitNHub\UE5_FallGuysClone\UE5_FallGuys\Intermediate\Build\Win64\UnrealEditor\Development\UE5_FallGuys\Default.rc2.res"
+/OUT:"C:\GitNHub\UE5_FallGuysClone\UE5_FallGuys\Intermediate\Build\Win64\UnrealEditor\Development\UE5_FallGuys\UnrealEditor-UE5_FallGuys.lib"

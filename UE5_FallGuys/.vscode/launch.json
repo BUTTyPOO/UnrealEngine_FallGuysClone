@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch UE5_FallGuys (Debug)",
+			"request": "launch",
+			"program": "C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "UE5_FallGuys Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "C:\\UE\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UE5_FallGuys (DebugGame)",
+			"request": "launch",
+			"program": "C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "UE5_FallGuys Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "C:\\UE\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UE5_FallGuys (Development)",
+			"request": "launch",
+			"program": "C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "UE5_FallGuys Win64 Development Build",
+			"args": [
+			],
+			"cwd": "C:\\UE\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UE5_FallGuys (Test)",
+			"request": "launch",
+			"program": "C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "UE5_FallGuys Win64 Test Build",
+			"args": [
+			],
+			"cwd": "C:\\UE\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UE5_FallGuys (Shipping)",
+			"request": "launch",
+			"program": "C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "UE5_FallGuys Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "C:\\UE\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UE5_FallGuysEditor (Debug)",
+			"request": "launch",
+			"program": "C:\\UE\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "UE5_FallGuysEditor Win64 Debug Build",
+			"args": [
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject"
+			],
+			"cwd": "C:\\UE\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UE5_FallGuysEditor (DebugGame)",
+			"request": "launch",
+			"program": "C:\\UE\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "UE5_FallGuysEditor Win64 DebugGame Build",
+			"args": [
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject"
+			],
+			"cwd": "C:\\UE\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UE5_FallGuysEditor (Development)",
+			"request": "launch",
+			"program": "C:\\UE\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "UE5_FallGuysEditor Win64 Development Build",
+			"args": [
+				"C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject"
+			],
+			"cwd": "C:\\UE\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\UE\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "C:\\UE\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=C:\\GitNHub\\UE5_FallGuysClone\\UE5_FallGuys\\UE5_FallGuys.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "C:\\UE\\UE_5.0"
+		}
+	]
+}
